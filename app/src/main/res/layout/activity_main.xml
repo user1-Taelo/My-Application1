@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limkokwing Online Courses"
+        android:layout_marginTop="10dp"
+
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="@color/purple_200"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="FRONT-END WEB DEVELOPMENT" />
+    <ImageView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/front" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="MOBILE APP DEVELOPMENT" />
+
+    <ImageView
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        app:srcCompat="@drawable/mobile" />
+
+      <Button
+          android:id="@+id/button3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:text="DATA SCIENCE" />
+
+      <ImageView
+          android:id="@+id/data"
+          android:layout_width="match_parent"
+          android:layout_height="308dp"
+          android:layout_marginTop="8dp"
+          app:srcCompat="@drawable/ds" />
+  </LinearLayout>
+
+</ScrollView>
